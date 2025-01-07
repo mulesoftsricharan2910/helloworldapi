@@ -1,0 +1,28 @@
+{
+  "configs": [
+    "global.xml",
+    "helloworldapi.xml"
+  ],
+  "secureProperties": [],
+  "supportedJavaVersions": [],
+  "redeploymentEnabled": true,
+  "name": "bede10c1-b197-4bd7-9830-60debbd49735:helloworldapi:1.0.0",
+  "minMuleVersion": "4.7.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "log4j2.xml",
+        "global.xml",
+        "helloworldapi.xml",
+        "api/helloworldapi.raml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
